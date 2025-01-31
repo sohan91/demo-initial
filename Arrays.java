@@ -15,8 +15,8 @@ public class Arrays {
             arr[i] = num;
         }
 
-        for(i = 0; i < arr.length; ++i) {
-            System.out.print("" + i + " ");
+        for(i = 0; i < arr.length; i++) {
+            System.out.print("" + arr[i] + " ");
         }
     }
 }
